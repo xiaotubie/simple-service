@@ -22,6 +22,9 @@ public class App {
                 "jersey.config.server.provider.classnames",
                 EntryPoint.class.getCanonicalName());
 
+
+
+
         try {
             jettyServer.start();
 
